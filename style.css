@@ -1,6 +1,5 @@
 body {
-    background: rgb(106,101,101);
-    background: radial-gradient(circle, rgba(106,101,101,1) 0%, rgba(37,36,36,1) 100%);
+    background-color: #d2d2d2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +9,7 @@ body {
     height: 95vh;
     margin: 20px;
     border-radius: 20px;
-    background-color: #ccc;
+    background-color: #fff;
     box-shadow: 3px 3px 20px #000;
 }
 .personal-detailes {
@@ -39,6 +38,14 @@ body {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+.carousel-control-next-icon {
+  background-color: #9e9e9e;
+  border-radius: 50px;
+}
+.carousel-control-prev-icon {
+  background-color: #9e9e9e;
+  border-radius: 50px;
 }
 .carousel-indicators {
     bottom: -10%;
